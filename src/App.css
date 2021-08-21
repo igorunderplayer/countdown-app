@@ -1,0 +1,50 @@
+.App {
+    background: #000;
+    border-radius: 50%;
+    width: 32rem;
+    height: 32rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2rem rgba(125, 10, 255, 1);
+    border: white dashed 2px;
+}
+
+.App button {
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.Inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.Inputs {
+    font-size: 38px;
+    color: white;
+    margin: 1rem;
+}
+
+.Inputs input {
+    color: white;
+    font-size: 24px;
+    border: none;
+    width: 12rem;
+    height: 3rem;
+    background-color: #111;
+}
+
+.Inputs #Minutes {
+    text-align: end;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.Inputs #Seconds {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
