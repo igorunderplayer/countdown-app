@@ -12,6 +12,7 @@
 }
 
 .App button {
+    cursor: pointer;
     border: none;
     width: 8rem;
     height: 3rem;
